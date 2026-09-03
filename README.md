@@ -51,10 +51,10 @@ JavaClass/
 <!-- PROGRAMS:START -->
 | File | Location | Topic | Concepts | Status |
 |---|---|---|---|---|
-| `casestudy1.java` | `CaseStudy/` | Case Study 1 — Student Grading System | Scanner, arrays, grading logic | ✅ Done |
-| `casestudy2.java` | `CaseStudy/` | Case Study — Student Grading | Scanner, arrays, grading logic | ✅ Done |
-| `casestudy3.java` | `CaseStudy/` | Case Study — Student Grading | Scanner, arrays, grading logic | ✅ Done |
-| `casestudy4.java` | `CaseStudy/` | Case Study — Student Grading | Scanner, arrays, grading logic | ✅ Done |
+| `casestudy1.java` | `CaseStudy/` | Case Study 1 — Student Result Management System | Scanner, arrays, grading logic | ✅ Done |
+| `casestudy2.java` | `CaseStudy/` | Case Study 2: Bank Account | Scanner, arrays, grading logic | ✅ Done |
+| `casestudy3.java` | `CaseStudy/` | Case Study 3: Employee Salary Management | Scanner, arrays, grading logic | ✅ Done |
+| `casestudy4.java` | `CaseStudy/` | Case Study 4: Online Shopping Cart | Scanner, arrays, grading logic | ✅ Done |
 | `cdemo.java` | `OOPs/Inheritance_and_Polymorphism/` | Inheritance & Polymorphism — Child class | extends, overriding | ✅ Done |
 | `employee.java` | `OOPs/Classes_and_Objects/` | Class & object modeling | class, this keyword | ✅ Done |
 | `excep.java` | `OOPs/Exception_Handling/` | Exception handling | try-catch, ArithmeticException | ✅ Done |
