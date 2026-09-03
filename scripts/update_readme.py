@@ -42,6 +42,7 @@ FOLDER_META = {
     "Multithreading": ("Multithreading", "Thread, Runnable"),
     "File_Handling": ("File Handling", "FileReader, FileWriter"),
     "Collections_and_Packages": ("Collections and Packages", "ArrayList, HashMap, packages"),
+    "CaseStudy": ("Case Study — Student Grading", "Scanner, arrays, grading logic"),
 }
 
 # Special overrides for specific files where topic is more precise
@@ -51,9 +52,10 @@ FILE_OVERRIDES = {
     "hello.java": ("Basic Java syntax / first program", "class, object, method"),
     "employee.java": ("Class & object modeling", "class, this keyword"),
     "excep.java": ("Exception handling", "try-catch, ArithmeticException"),
+    "casestudy1.java": ("Case Study 1 — Student Grading System", "Scanner, arrays, grading logic"),
 }
 
-SCAN_ROOTS = [ROOT / "Java_Programming", ROOT / "OOPs"]
+SCAN_ROOTS = [ROOT / "Java_Programming", ROOT / "OOPs", ROOT / "CaseStudy"]
 
 def get_meta(java_file: Path):
     folder = java_file.parent.name
