@@ -7,7 +7,7 @@ public class CourseAnalysis {
             Set<Integer> pythonStudents) {
         
         Set<Integer> common = new HashSet<>(javaStudents);
-        common.retainAll(pythonStudents); // Keeps only elements present in both
+        common.retainAll(pythonStudents); 
         return common;
     }
 
@@ -16,7 +16,7 @@ public class CourseAnalysis {
             Set<Integer> pythonStudents) {
 
         Set<Integer> all = new LinkedHashSet<>(javaStudents);
-        all.addAll(pythonStudents); // Merges both sets
+        all.addAll(pythonStudents); 
         return all;
     }
 
@@ -25,7 +25,7 @@ public class CourseAnalysis {
             Set<Integer> pythonStudents) {
 
         Set<Integer> onlyJavaSet = new HashSet<>(javaStudents);
-        onlyJavaSet.removeAll(pythonStudents); // Removes Python students, leaving only Java
+        onlyJavaSet.removeAll(pythonStudents); 
         return onlyJavaSet;
     }
 
